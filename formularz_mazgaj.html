@@ -1,75 +1,123 @@
-<!DOCTYPE html>
-        <html lang="pl-PL">
-    <html>
-            <head>
-                <meta charset="utf-8">
-                <title>Formularz Mazgaj </title>
-            </head>
-    <body bgcolor="#87CEFA">
-    <form>
-<TABLE>
+ <!DOCTYPE html>
+ <html lang="pl-PL">
+<html>
+ <head>
+ <meta charset="utf-8">
+ <title> ZADANIE FORMULARZ </title>
+ </head>
+<body bgcolor="#87CEFA">
+<center><h1> Formularz o.................zaproponowany przez nauczyciela</h1></center>
+<form enctype="text/plain" action="mailto:mkryniew@wp.pl" subject="formularz_dane" method="Post">
+ <TABLE>
 <TR height="100">
-<TD width="500">
-<b>Imię</b> &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp
-&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <input name="imie" size="22">
+ <TD width="500"> 
+ <b>Podaj Imię</b> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+&nbsp 
+&nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp<input name="imie" size="22"> 
+ <br><br>
+ <b>Podaj Nazwisko</b>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+&nbsp &nbsp &nbsp &nbsp <input name="drugie" size="22"> 
+ <br><br>
+ <b>Podaj Adres e-mail</b> &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp 
+&nbsp &nbsp &nbsp <input name="nazwisko" size="22"> 
+ <br><br>
+ <b>Podaj nazwe Użytkownika</b>&nbsp  &nbsp  &nbsp  &nbsp  &nbsp &nbsp<input name="login" size="22"><nobr> 
 <br><br>
-<b>Nazwisko </b>  &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <input name="nazwisko" size="22">
-<br><br>
-<b>Adres email </b> &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <input name="adres_email" size="22">
-<br><br>
-<b>Nazwa Użytkownika </b> &nbsp&nbsp &nbsp&nbsp &nbsp <input name="nazwa_uzytkownika" size="22">
-<br><br>
-<b>Hasło</b> &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp&nbsp &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp&nbsp
-&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp <input name="hasło" size="22">
-<br><br>
-<b>Powtórz Hasło </b> &nbsp &nbsp&nbsp &nbsp&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <input name="powtorz_haslo" size="22">
-<br><br>
-</TD>
-<TR height="200">
-<TD><nobr>Skąd dowiedziałeś się o naszej grze</nobr>
+ <b>Podaj Hasło</b> &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+&nbsp &nbsp &nbsp <input name="nazwisko" size="22"> 
+ <br><br>
+  <b>Powtórz Hasło</b> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+&nbsp &nbsp &nbsp <input name="nazwisko" size="22"> 
+ <br><br>
+ </TD> 
+ <TD> 
+&nbsp
+ </TD> 
+ <TD width="500">Jaka jest Twoja ulubione ciastko?
 <br><br>
 <FIELDSET>
-<input type="radio" name="pyt2" value="internet"> Internet
+Tak
 <br><br>
-<input type="radio" name="pyt2" value="znajomi"> Znajomi
+<input type="checkbox" name="ciastko" value="k"> Rycerze
 <br><br>
-<input type="radio" name="pyt2" value="rodzina"> Rodzina 
+<input type="checkbox" name="ciastko" value="m"> Labirynt
 <br><br>
-<input type="radio" name="pyt2" value="gazeta"> Gazeta 
-<br><br>
-<input type="radio" name="pyt2" value="inne_zrodlo"> Inne źródło
-<br><br> 
-<nobr>Jeśli zaznaczyłeś Inne źródło<br>podaj ję poniżej</nobr>
-<br><br>
-<input name="inna" size="25" maxlength="100">
+<input type="checkbox" name="ciastko" value="inna"> Programista
 </FIELDSET>
+<FIELDSET>
+<input type="checkbox" name="ciastko" value="inna"> Nie
+</FIELDSET>
+<br><br>
+ </TD>
+ </TR>
+<TR height="200">
+ <TD><nobr>Skąd dowiedziałeś się o grze?</nobr>
+<br><br>
+<input type="radio" name="pyt3" value="tak"> Internet
+<br><br>
+<input type="radio" name="pyt3" value="nie"> Znajomi
+<br><br>
+<input type="radio" name="pyt3" value="tak"> Rodzina 
+<br><br>
+<input type="radio" name="pyt3" value="tak"> Gazeta                             
+<br><br>
+<input type="radio" name="pyt3" value="tak"> Inne źródło 
+ <br><br><br>
+<nobr>Jeśli zaznaczyłeś Inne<br> to podaj źródło poniżej<br></nobr>
+<br>
+<input name="inna" size="25" maxlength="100">
+<br><br>
+</TD> 
+ <TD>&nbsp </TD> 
+<TD width="300" > 
+<center><font size="5" color="black"><b>Wybierz ulubiony gatunek gier
+</b></font></center><br>
+ <center> <select>
+ <option value="autobus">MMO</option>
+ <option value="motocykl">Adventure</option>
+ <option value="prom">RPG</option>
+ <option value="samolot">Action</option>
+ </select> </center>
+ </TD> 
+ </TR>
+  <TD width="500">Czy chciałbyś testować naszą grę?
+<br><br>
+<input type="radio" name="ciastko" value="k"> Tak
+<br><br>
+<input type="radio" name="ciastko" value="m"> Nie
+<br><br>
+<input type="radio" name="ciastko" value="inna"> Nie Wiem
 </TD>
-<TR height="200">
-<TD><nobr>Czy chciałbyś testować naszą gre</nobr>
+ <TD>&nbsp</TD> 
+ <TD><nobr>Wybierz przedział wiekowy dla naszej gry</nobr>
 <br><br>
-<input type="radio" name="pyt3" value="tak"> Tak
-
-<input type="radio" name="pyt3" value="nie"> Nie
-
-<input type="radio" name="pyt3" value="nie_wiem"> Nie wiem </TD>
-</TR>
-<TR height="200">
-<TD><nobr>Najczęśćiej grasz na:</nobr>
+<input type="radio" name="pyt3" value="tak"> Pegi 3
 <br><br>
-<input type="radio" name="pyt4" value="konsola"> Konsoli
+<input type="radio" name="pyt3" value="nie"> Pegi 7
 <br><br>
-<input type="radio" name="pyt4" value="komputer"> Komputerze
+<input type="radio" name="pyt3" value="tak"> Pegi 12
 <br><br>
-<input type="radio" name="pyt4" value="telefon"> Telefonie</TD>
+<input type="radio" name="pyt3" value="tak"> Pegi 16                             
+<br><br>
+<input type="radio" name="pyt3" value="tak"> Pegi 18
+</TD> 
+<br><br><br>
+  <TR height="100">
+  <TD width="500">Najczęściej grasz na:
+<br><br>
+<input type="radio" name="ciastko" value="k"> Konsoli
+<br><br>
+<input type="radio" name="ciastko" value="m"> Komputerze
+<br><br>
+<input type="radio" name="ciastko" value="inna"> Telefonie
 
-</TR>
-
-
-
-</TABLE>
-
-	</form>
-    <A HREF="index.html"> Wróć </A>
-
+<br><br>
+ </TD>
+  <TD><nobr><input type="reset" value="Reset" style="height:80px; width:150px"> 
+</TD> 
+ <TD> <input type="submit" value"=Wyślij formularz" style="height:80px; width:150px"> </TD>
+ </TR>
+ </TABLE>
+</form>
 </body>
 </html>
