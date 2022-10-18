@@ -3,49 +3,49 @@
 <html>
  <head>
  <meta charset="utf-8">
- <title> ZADANIE FORMULARZ </title>
+ <title> FORMULARZ MAZGAJ </title>
  </head>
 <body bgcolor="#87CEFA">
-<center><h1> Formularz o.................zaproponowany przez nauczyciela</h1></center>
+<center><h1> Formularz o grze </h1></center>
 <form enctype="text/plain" action="mailto:mkryniew@wp.pl" subject="formularz_dane" method="Post">
  <TABLE>
 <TR height="100">
  <TD width="500"> 
  <b>Podaj Imię</b> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
 &nbsp 
-&nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp<input name="imie" size="22"> 
+&nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp <input name="imie" size="22"> 
  <br><br>
  <b>Podaj Nazwisko</b>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
-&nbsp &nbsp &nbsp &nbsp <input name="drugie" size="22"> 
+&nbsp &nbsp &nbsp &nbsp <input name="drugie imie" size="22"> 
  <br><br>
  <b>Podaj Adres e-mail</b> &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp 
 &nbsp &nbsp &nbsp <input name="nazwisko" size="22"> 
  <br><br>
- <b>Podaj nazwe Użytkownika</b>&nbsp  &nbsp  &nbsp  &nbsp  &nbsp &nbsp<input name="login" size="22"><nobr> 
+ <b>Podaj nazwe Użytkownika</b>&nbsp  &nbsp  &nbsp  &nbsp  &nbsp &nbsp <input name="nazwa" size="22"><nobr> 
 <br><br>
  <b>Podaj Hasło</b> &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
-&nbsp &nbsp &nbsp <input name="nazwisko" size="22"> 
+&nbsp &nbsp &nbsp <input name="haslo" size="22"> 
  <br><br>
   <b>Powtórz Hasło</b> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
-&nbsp &nbsp &nbsp <input name="nazwisko" size="22"> 
+&nbsp &nbsp &nbsp <input name="powtorzone haslo" size="22"> 
  <br><br>
  </TD> 
  <TD> 
 &nbsp
  </TD> 
- <TD width="500">Jaka jest Twoja ulubione ciastko?
+ <TD width="500">Czy grałeś kiedyś w naszą gre?
 <br><br>
 <FIELDSET>
 Tak
 <br><br>
-<input type="checkbox" name="ciastko" value="k"> Rycerze
+<input type="checkbox" name="gra" value="Tak, Rycerze"> Rycerze
 <br><br>
-<input type="checkbox" name="ciastko" value="m"> Labirynt
+<input type="checkbox" name="gra" value="Tak, Labirynt"> Labirynt
 <br><br>
-<input type="checkbox" name="ciastko" value="inna"> Programista
+<input type="checkbox" name="gra" value="Tak, Programista"> Programista
 </FIELDSET>
 <FIELDSET>
-<input type="checkbox" name="ciastko" value="inna"> Nie
+<input type="checkbox" name="gra" value="Nie"> Nie
 </FIELDSET>
 <br><br>
  </TD>
@@ -53,19 +53,19 @@ Tak
 <TR height="200">
  <TD><nobr>Skąd dowiedziałeś się o grze?</nobr>
 <br><br>
-<input type="radio" name="pyt3" value="tak"> Internet
+<input type="radio" name="zrodlo" value="Internet"> Internet
 <br><br>
-<input type="radio" name="pyt3" value="nie"> Znajomi
+<input type="radio" name="zrodlo" value="Znajomi"> Znajomi
 <br><br>
-<input type="radio" name="pyt3" value="tak"> Rodzina 
+<input type="radio" name="zrodlo" value="Rodzina"> Rodzina 
 <br><br>
-<input type="radio" name="pyt3" value="tak"> Gazeta                             
+<input type="radio" name="zrodlo" value="Gazeta"> Gazeta                             
 <br><br>
-<input type="radio" name="pyt3" value="tak"> Inne źródło 
+<input type="radio" name="zrodlo" value="Inne zrodlo"> Inne źródło 
  <br><br><br>
 <nobr>Jeśli zaznaczyłeś Inne<br> to podaj źródło poniżej<br></nobr>
 <br>
-<input name="inna" size="25" maxlength="100">
+<input name="inne" size="25" maxlength="100">
 <br><br>
 </TD> 
  <TD>&nbsp </TD> 
@@ -73,49 +73,52 @@ Tak
 <center><font size="5" color="black"><b>Wybierz ulubiony gatunek gier
 </b></font></center><br>
  <center> <select>
- <option value="autobus">MMO</option>
- <option value="motocykl">Adventure</option>
- <option value="prom">RPG</option>
- <option value="samolot">Action</option>
+ <option value="MMO">MMO</option>
+ <option value="Adventure">Adventure</option>
+ <option value="RPG">RPG</option>
+ <option value="Action">Action</option>
  </select> </center>
  </TD> 
  </TR>
   <TD width="500">Czy chciałbyś testować naszą grę?
 <br><br>
-<input type="radio" name="ciastko" value="k"> Tak
+<input type="radio" name="test" value="Tak"> Tak
 <br><br>
-<input type="radio" name="ciastko" value="m"> Nie
+<input type="radio" name="test" value="Nie"> Nie
 <br><br>
-<input type="radio" name="ciastko" value="inna"> Nie Wiem
+<input type="radio" name="test" value="Nie Wiem"> Nie Wiem
 </TD>
  <TD>&nbsp</TD> 
  <TD><nobr>Wybierz przedział wiekowy dla naszej gry</nobr>
 <br><br>
-<input type="radio" name="pyt3" value="tak"> Pegi 3
+<input type="radio" name="wiek" value="3"> Pegi 3
 <br><br>
-<input type="radio" name="pyt3" value="nie"> Pegi 7
+<input type="radio" name="wiek" value="7"> Pegi 7
 <br><br>
-<input type="radio" name="pyt3" value="tak"> Pegi 12
+<input type="radio" name="wiek" value="12"> Pegi 12
 <br><br>
-<input type="radio" name="pyt3" value="tak"> Pegi 16                             
+<input type="radio" name="wiek" value="16"> Pegi 16                             
 <br><br>
-<input type="radio" name="pyt3" value="tak"> Pegi 18
+<input type="radio" name="wiek" value="18"> Pegi 18
 </TD> 
 <br><br><br>
   <TR height="100">
   <TD width="500">Najczęściej grasz na:
 <br><br>
-<input type="radio" name="ciastko" value="k"> Konsoli
+<input type="radio" name="sprzet" value="Konsola"> Konsoli
 <br><br>
-<input type="radio" name="ciastko" value="m"> Komputerze
+<input type="radio" name="sprzet" value="Komputer"> Komputerze
 <br><br>
-<input type="radio" name="ciastko" value="inna"> Telefonie
-
+<input type="radio" name="sprzet" value="Telefon"> Telefonie
+</TD>
 <br><br>
- </TD>
+  <TD>
+  &nbsp
+</TD>
+<TD><p align=center><b> Dodaj komentarz <br>do naszej gry</b></p> <textarea cols="50" rows="4"></textarea></TD><br><br><br>
   <TD><nobr><input type="reset" value="Reset" style="height:80px; width:150px"> 
 </TD> 
- <TD> <input type="submit" value"=Wyślij formularz" style="height:80px; width:150px"> </TD>
+ <TD> <input type="submit" value="Wyślij formularz" style="height:80px; width:150px"> </TD>
  </TR>
  </TABLE>
 </form>
